@@ -22,13 +22,22 @@ protocol Router {
   
 }
 
+
+// MARK: - Extension
+
 extension Router {
   var baseUrl: URL {
     return URL(string: "https://api-2445582011268.apicast.io")!
   }
-}
-
-
-enum RequestRouter {
   
 }
+
+
+// MARK: - Parent Definition
+
+enum RequestRouter {
+  enum RouterError: Error {
+    case requestEncodingError
+  }
+}
+

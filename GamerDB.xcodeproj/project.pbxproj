@@ -13,7 +13,7 @@
 		06AEC0F31F8DC21A00EACD3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06AEC0F21F8DC21A00EACD3C /* Assets.xcassets */; };
 		06AEC0F61F8DC21A00EACD3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06AEC0F41F8DC21A00EACD3C /* LaunchScreen.storyboard */; };
 		06AEC1011F8DC21A00EACD3C /* GamerDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AEC1001F8DC21A00EACD3C /* GamerDBTests.swift */; };
-		06AEC10D1F8DD01200EACD3C /* RequestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AEC10C1F8DD01200EACD3C /* RequestRouter.swift */; };
+		06AEC10D1F8DD01200EACD3C /* PlatformRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AEC10C1F8DD01200EACD3C /* PlatformRouter.swift */; };
 		06AEC1101F8DD60200EACD3C /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AEC10F1F8DD60200EACD3C /* Router.swift */; };
 		693AE3DCF77E0C685194AD04 /* Pods_GamerDBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4340CB12BB1253255EE52AA /* Pods_GamerDBTests.framework */; };
 		DEFE4F96CC01DC76EC02CA06 /* Pods_GamerDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99DFCBB7053352D43653466C /* Pods_GamerDB.framework */; };
@@ -40,7 +40,7 @@
 		06AEC0FC1F8DC21A00EACD3C /* GamerDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamerDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AEC1001F8DC21A00EACD3C /* GamerDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamerDBTests.swift; sourceTree = "<group>"; };
 		06AEC1021F8DC21A00EACD3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06AEC10C1F8DD01200EACD3C /* RequestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRouter.swift; sourceTree = "<group>"; };
+		06AEC10C1F8DD01200EACD3C /* PlatformRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformRouter.swift; sourceTree = "<group>"; };
 		06AEC10F1F8DD60200EACD3C /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		7677BB5C46D6ECBD95DFE08B /* Pods-GamerDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamerDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-GamerDB/Pods-GamerDB.release.xcconfig"; sourceTree = "<group>"; };
 		92F7CF6FD6F8B29E9E0EED94 /* Pods-GamerDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamerDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GamerDB/Pods-GamerDB.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,10 +124,26 @@
 		06AEC10E1F8DD5F500EACD3C /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				06AEC10F1F8DD60200EACD3C /* Router.swift */,
-				06AEC10C1F8DD01200EACD3C /* RequestRouter.swift */,
+				06AEC1111F8DDC6200EACD3C /* Protocols */,
+				06AEC1121F8DDC7400EACD3C /* Types */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		06AEC1111F8DDC6200EACD3C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				06AEC10F1F8DD60200EACD3C /* Router.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		06AEC1121F8DDC7400EACD3C /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				06AEC10C1F8DD01200EACD3C /* PlatformRouter.swift */,
+			);
+			path = Types;
 			sourceTree = "<group>";
 		};
 		6D23048AC4A842D17C489238 /* Frameworks */ = {
@@ -364,7 +380,7 @@
 				06AEC1101F8DD60200EACD3C /* Router.swift in Sources */,
 				06AEC0EE1F8DC21A00EACD3C /* ViewController.swift in Sources */,
 				06AEC0EC1F8DC21A00EACD3C /* AppDelegate.swift in Sources */,
-				06AEC10D1F8DD01200EACD3C /* RequestRouter.swift in Sources */,
+				06AEC10D1F8DD01200EACD3C /* PlatformRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

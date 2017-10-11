@@ -46,10 +46,20 @@ extension RequestRouter {
     
     func asURLRequest() throws -> URLRequest {
       
-      return URLRequest(url: baseUrl)
+      let endpoint = baseUrl.appendingPathComponent(path)
+      var request = URLRequest(url: endpoint)
+      
+      request.httpMethod = httpMethod.rawValue
+      
+      let encoding = URLEncoding.default
+      
+      guard let fullRequest = try? encoding.encode(request, with: parameters) else {
+        throw RequestRouter.RouterError.requestEncodingError
+      }
+      
+      return fullRequest
       
     }
     
   }
-  
 }
