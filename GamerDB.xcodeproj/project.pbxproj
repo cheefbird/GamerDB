@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		061A58B61F8DF6AE007DFA7B /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061A58B51F8DF6AE007DFA7B /* Platform.swift */; };
+		061A58B81F8DF8B7007DFA7B /* PlatformServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061A58B71F8DF8B7007DFA7B /* PlatformServiceType.swift */; };
 		0631993D1F8DF04C00EEA7B9 /* PlatformSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0631993C1F8DF04C00EEA7B9 /* PlatformSelectViewController.swift */; };
 		063199401F8DF08000EEA7B9 /* PlatformSelectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0631993F1F8DF08000EEA7B9 /* PlatformSelectCollectionViewCell.swift */; };
 		063199421F8DF09400EEA7B9 /* PlatformSelectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063199411F8DF09400EEA7B9 /* PlatformSelectViewModel.swift */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		061A58B51F8DF6AE007DFA7B /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		061A58B71F8DF8B7007DFA7B /* PlatformServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformServiceType.swift; sourceTree = "<group>"; };
 		0631993C1F8DF04C00EEA7B9 /* PlatformSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformSelectViewController.swift; sourceTree = "<group>"; };
 		0631993F1F8DF08000EEA7B9 /* PlatformSelectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformSelectCollectionViewCell.swift; sourceTree = "<group>"; };
 		063199411F8DF09400EEA7B9 /* PlatformSelectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformSelectViewModel.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		061A58B31F8DF687007DFA7B /* Platform */ = {
 			isa = PBXGroup;
 			children = (
+				061A58B71F8DF8B7007DFA7B /* PlatformServiceType.swift */,
 			);
 			path = Platform;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				063199401F8DF08000EEA7B9 /* PlatformSelectCollectionViewCell.swift in Sources */,
 				06AEC0EC1F8DC21A00EACD3C /* AppDelegate.swift in Sources */,
 				06AEC10D1F8DD01200EACD3C /* PlatformRouter.swift in Sources */,
+				061A58B81F8DF8B7007DFA7B /* PlatformServiceType.swift in Sources */,
 				061A58B61F8DF6AE007DFA7B /* Platform.swift in Sources */,
 				063199451F8DF29800EEA7B9 /* ViewModelType.swift in Sources */,
 			);
