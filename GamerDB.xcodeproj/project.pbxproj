@@ -70,6 +70,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0631993A1F8DEF3700EEA7B9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				06AEC0EF1F8DC21A00EACD3C /* Main.storyboard */,
+				06AEC0F41F8DC21A00EACD3C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		06AEC0DF1F8DC21A00EACD3C = {
 			isa = PBXGroup;
 			children = (
@@ -96,9 +105,8 @@
 				06AEC0EB1F8DC21A00EACD3C /* AppDelegate.swift */,
 				06AEC10B1F8DCF8000EACD3C /* API */,
 				06AEC0ED1F8DC21A00EACD3C /* ViewController.swift */,
-				06AEC0EF1F8DC21A00EACD3C /* Main.storyboard */,
+				0631993A1F8DEF3700EEA7B9 /* Storyboards */,
 				06AEC0F21F8DC21A00EACD3C /* Assets.xcassets */,
-				06AEC0F41F8DC21A00EACD3C /* LaunchScreen.storyboard */,
 				06AEC0F71F8DC21A00EACD3C /* Info.plist */,
 			);
 			path = GamerDB;
