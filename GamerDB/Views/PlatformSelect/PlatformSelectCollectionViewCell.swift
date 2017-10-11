@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PlatformSelectCollectionViewCell.swift
 //  GamerDB
 //
 //  Created by Francis Breidenbach on 10/10/17.
@@ -8,11 +8,6 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-  
-  override func viewDidLoad() {
-    super.viewDidLoad()
+class PlatformSelectCollectionViewCell: UICollectionViewCell {
     
-  }
 }
-
