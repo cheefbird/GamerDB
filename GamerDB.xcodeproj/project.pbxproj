@@ -10,6 +10,7 @@
 		0631993D1F8DF04C00EEA7B9 /* PlatformSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0631993C1F8DF04C00EEA7B9 /* PlatformSelectViewController.swift */; };
 		063199401F8DF08000EEA7B9 /* PlatformSelectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0631993F1F8DF08000EEA7B9 /* PlatformSelectCollectionViewCell.swift */; };
 		063199421F8DF09400EEA7B9 /* PlatformSelectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063199411F8DF09400EEA7B9 /* PlatformSelectViewModel.swift */; };
+		063199451F8DF29800EEA7B9 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063199441F8DF29800EEA7B9 /* ViewModelType.swift */; };
 		06AEC0EC1F8DC21A00EACD3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AEC0EB1F8DC21A00EACD3C /* AppDelegate.swift */; };
 		06AEC0F11F8DC21A00EACD3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06AEC0EF1F8DC21A00EACD3C /* Main.storyboard */; };
 		06AEC0F31F8DC21A00EACD3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06AEC0F21F8DC21A00EACD3C /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		0631993C1F8DF04C00EEA7B9 /* PlatformSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformSelectViewController.swift; sourceTree = "<group>"; };
 		0631993F1F8DF08000EEA7B9 /* PlatformSelectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformSelectCollectionViewCell.swift; sourceTree = "<group>"; };
 		063199411F8DF09400EEA7B9 /* PlatformSelectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformSelectViewModel.swift; sourceTree = "<group>"; };
+		063199441F8DF29800EEA7B9 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 		06AEC0E81F8DC21A00EACD3C /* GamerDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamerDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AEC0EB1F8DC21A00EACD3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06AEC0F01F8DC21A00EACD3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		0631993B1F8DF00500EEA7B9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				063199431F8DF28700EEA7B9 /* Protocols */,
 				0631993E1F8DF05200EEA7B9 /* PlatformSelect */,
 			);
 			path = Views;
@@ -99,6 +102,14 @@
 				063199411F8DF09400EEA7B9 /* PlatformSelectViewModel.swift */,
 			);
 			path = PlatformSelect;
+			sourceTree = "<group>";
+		};
+		063199431F8DF28700EEA7B9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				063199441F8DF29800EEA7B9 /* ViewModelType.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		06AEC0DF1F8DC21A00EACD3C = {
@@ -413,6 +424,7 @@
 				063199401F8DF08000EEA7B9 /* PlatformSelectCollectionViewCell.swift in Sources */,
 				06AEC0EC1F8DC21A00EACD3C /* AppDelegate.swift in Sources */,
 				06AEC10D1F8DD01200EACD3C /* PlatformRouter.swift in Sources */,
+				063199451F8DF29800EEA7B9 /* ViewModelType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
